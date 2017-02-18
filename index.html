@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
 	<title>Nathan's Portfolio</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
@@ -10,40 +14,55 @@
 <body>
 	<div class="container">
 
+<!-- TODO: find better logo -->
+<!-- TODO: make a navbar -->
 		<section class="row page-header">
-			<div class="col-md-4">
-				<img src="images/skyline.jpg" class="img-responsive">
-			</div>
-			<div class="col-md-4 col-md-offset-4">
-				<h1 class="text-right" id="name">Nathan Simpson<br> <small>Not very good at coding</small></h1>
-			</div>
+			<header>
+				<div class="col-md-4">
+					<img src="images/skyline.jpg" class="img-responsive" alt="ATL Skyline">
+				</div>
+				<div class="col-md-4 col-md-offset-4">
+					<h1 class="text-right" id="name">Nathan Simpson<br> <small>Not very good at coding</small></h1>
+				</div>
+			</header>
 		</section>
 
 		<section class="row">
 			<div class="jumbotron">
-				<img src="images/ATL.jpg" class="img-responsive center-block">
+				<img src="images/ATL.jpg" class="img-responsive center-block" alt="ATL long-exposure at night">
 			</div>
 		</section>
 
+<!--TODO: add modals when clicking images -->
 		<section class="row well">
-			<div>
+			<header>
 				<h3 id="featured">Featured Work</h3>
-			</div>
-			<div class="col-md-4">
+			</header>
+			<article class="col-md-4">
 				<img src="images/braves.jpg" class="img-responsive center-block img-thumbnail" alt="Turner Field">
 				<h3 class="text-center">Braves</h3>
-				<h4 class="text-center">https://google.com</h4>
-			</div>
-			<div class="col-md-4">
+				<h4 class="text-center"><a href="https://nathansimpson5.github.io/">https://nathansimpson5.github.io/</a></h4>
+			</article>
+			<article class="col-md-4">
 				<img src="images/made.jpg" class="img-responsive center-block img-thumbnail" alt="Atlanta Building">
 				<h3 class="text-center">ATL</h3>
 				<h4 class="text-center">https://google.com</h4>
-			</div>
-			<div class="col-md-4">
+			</article>
+			<article class="col-md-4">
 				<img src="images/marta.jpg" class="img-responsive center-block img-thumbnail" alt="Train Station">
 				<h3 class="text-center">marta</h3>
 				<h4 class="text-center">https://google.com</h4>
-			</div>
+			</article>
+		</section>
+
+<!-- TODO: fill in about me with social links -->
+<!-- TODO: add contact form -->
+
+		<section class="row well">
+			<footer>
+				<h4>About Me</h4>
+					<p>This is just a little info about me and how you can contact me.</p>
+			</footer>
 		</section>
 
 		</div>

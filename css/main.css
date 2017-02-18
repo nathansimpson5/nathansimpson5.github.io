@@ -1,8 +1,8 @@
-body{
+body {
 	font-family: 'Lato', sans-serif;
 }
 
-#name{
+#name {
 	margin-top: auto;
 }
 
@@ -15,4 +15,8 @@ body{
 h1 {
 	font-size: 3em;
 	padding-top: 40px;
+}
+
+a {
+	color: black;
 }
